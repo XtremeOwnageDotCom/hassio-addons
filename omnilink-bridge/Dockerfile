@@ -18,7 +18,7 @@ WORKDIR /app
 
 ARG BUILD_VERSION
 
-RUN curl -L -o OmniLinkBridge.zip https://github.com/excaliburpartners/OmniLinkBridge/releases/download/${BUILD_VERSION}/OmniLinkBridge.zip && \
+RUN curl -L -o OmniLinkBridge.zip https://github.com/XtremeOwnageDotCom/OmniLinkBridge/releases/download/${BUILD_VERSION}/OmniLinkBridge.zip && \
     unzip OmniLinkBridge.zip && \
     rm -f OmniLinkBridge.zip
 
